@@ -1,7 +1,8 @@
-class Point: #mnogo tochek
+
+class Point: #test2 #test3
     # Класс Point - содержит координаты точки
     def __init__(self, point_input):
-        self.x = point_input[0]
+        self.x = point_input[0] #hello
         self.y = point_input[1]
 
     def __repr__(self):
@@ -11,7 +12,11 @@ class Edge:
     def __init__(self, p1, p2):
         # переменные экземпляра класса. их значения доступны только объекту
         self.p1, self.p2 = (p1, p2)
-        self.a = (self.p2.y - self.p1.y)/(self.p2.x - self.p1.x)
+        
+        if (self.p2.x - self.p1.x) != 0:
+            self.a = (self.p2.y - self.p1.y)/(self.p2.x - self.p1.x)  
+        else:
+            self.a = 0
         self.b = self.p1.y - (self.a * self.p1.x)
 
     def __repr__(self):
