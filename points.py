@@ -13,8 +13,7 @@ class Edge:
         self.p1, self.p2 = (p1, p2)
         
         if (self.p2.x - self.p1.x) != 0:
-            self.a = (self.p2.y - self.p1.y)/(self.p2.x - self.p1.x)
-            
+            self.a = (self.p2.y - self.p1.y)/(self.p2.x - self.p1.x)  
         else:
             self.a = 0
         self.b = self.p1.y - (self.a * self.p1.x)
