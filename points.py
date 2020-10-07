@@ -1,3 +1,4 @@
+
 class Point: #test2 #test3
     # Класс Point - содержит координаты точки
     def __init__(self, point_input):
