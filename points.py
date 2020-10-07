@@ -2,7 +2,7 @@ class Point: #test2
     # Класс Point - содержит координаты точки
     def __init__(self, point_input):
         self.x = point_input[0]
-        self.y = point_input[1]
+        self.y = point_input[1] #ttteeee
 
     def __repr__(self):
         return("X coordinate: {}; Y coordinate: {}".format(self.x, self.y))
