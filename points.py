@@ -1,6 +1,6 @@
 
 class Point: #test2 #test3 lilu nell
-    # Класс Point - содержит координаты точки
+    # Класс Point - содержит координаты точки #жопа
     def __init__(self, point_input):
         self.x = point_input[0] #hello
         self.y = point_input[1]
