@@ -1,4 +1,4 @@
-class Point:
+class Point: #mnogo tochek
     # Класс Point - содержит координаты точки
     def __init__(self, point_input):
         self.x = point_input[0]
