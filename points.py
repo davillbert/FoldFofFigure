@@ -1,5 +1,5 @@
 
-class Point: #test2 #test3
+class Point: #test2 #test3 lilu
     # Класс Point - содержит координаты точки
     def __init__(self, point_input):
         self.x = point_input[0] #hello
